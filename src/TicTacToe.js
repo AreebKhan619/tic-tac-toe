@@ -72,7 +72,10 @@ class TicTacToe extends Component {
     }
 
     if (xIndices.length + oIndices.length === 9) {
-      console.log("game over");
+	//   console.log("game over");
+	this.setState({
+		isGameOver: true
+	})
     }
   };
 
