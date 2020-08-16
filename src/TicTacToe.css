@@ -1,0 +1,29 @@
+.outer-box{
+	width: 15em;
+	/* height: 100vh; */
+	height: fit-content;
+	border: 1px solid;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	margin: 0 auto;
+}
+
+.box{
+	height: 5em;
+	width: 5em;
+	border: 1px solid;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box:hover{
+	cursor: pointer;
+}
+
+.box.filled{
+	cursor: not-allowed;
+}
